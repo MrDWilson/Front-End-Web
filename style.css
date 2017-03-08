@@ -37,7 +37,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
     body {
         background-color:#595959;
         color:#e6e6e6;
@@ -54,6 +54,7 @@
         padding-right: 10px;
         padding-left: 10px;
         border-right: 1px solid #bbb;
+        width: 300px;
     }
 
     #nav-bar {
@@ -105,7 +106,7 @@
     }
     
     #footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         text-align: center;
         width: 100%;
@@ -113,11 +114,44 @@
     }
     
     .textElement {
-        padding: 10px;
-        width: 50%;
+        padding: 50px 0px 20px 50px;
+        width: 40%;
+        font-size: 20;
     }
     
     #load-div {
         width: 100%;
-        border: 1px solid black;
+    }
+    
+    #load-picture {
+        width: 40%; 
+        float:right;
+        padding: 50px 50px 20px 50px;
+    }
+    
+    #review-link {
+        text-decoration: none;
+        color: lightskyblue;
+    }
+    
+    
+    /*Experimental animation*/
+    
+    #animation-container {
+        width: 80px;
+        height: 2.4em;
+        position: relative;
+        float: left;
+    }
+    
+    .bricks {
+        width: 14px;
+        height: 7px;
+        position: absolute;
+        background-color: darkred;
+        border: 1px solid #ffffff;
+    }
+    
+    
+    
 }
