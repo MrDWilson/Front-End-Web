@@ -12,7 +12,7 @@ $(document).ready(function () {
     
     $('#click-home').click(function () {
         
-        if($(window).width() <= 780) {
+        if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
@@ -27,7 +27,7 @@ $(document).ready(function () {
     
     $('#click-gallary').click(function () {
         
-        if($(window).width() <= 780) {
+        if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
@@ -42,7 +42,7 @@ $(document).ready(function () {
     
     $('#click-location').click(function () {
         
-        if($(window).width() <= 780) {
+        if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
@@ -57,7 +57,7 @@ $(document).ready(function () {
     
     $('#click-wwd').click(function () {
         
-        if($(window).width() <= 780) {
+        if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
@@ -72,7 +72,7 @@ $(document).ready(function () {
     
     $('#click-contact').click(function () {
         
-        if($(window).width() <= 780) {
+        if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
@@ -87,7 +87,7 @@ $(document).ready(function () {
     
     $('#click-about').click(function () {
         
-        if($(window).width() <= 780) {
+        if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
@@ -114,6 +114,19 @@ $(document).ready(function () {
             $(".hamburger").show();
             $(".exit-hamburger").hide();
         });
+    });
+    
+    $(window).resize(function() {
+        
+        var win = $(this);
+        
+       
+        if(win.width() >= 800) {
+         
+            $('#nav-bar').css('display', '');
+            
+        }
+        
     });
     
     

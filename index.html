@@ -6,6 +6,15 @@
     <script src="jquery-3.1.1.min.js"></script>
     <script src="operations.js"></script>
     
+    <!-- ICON -->
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    
 </head>
 
 <html>
@@ -13,115 +22,167 @@
 
     <body>
     
-        <div id="top-bar">
+        <div id="wrapper">
             
-            <div id="animation-container">
-                
-                    <div id="brick1" class="bricks"></div>
-                    <div id="brick2" class="bricks"></div>
-                    <div id="brick3" class="bricks"></div>
-                    <div id="brick4" class="bricks"></div>
-                    <div id="brick5" class="bricks"></div>
-                    <div id="brick6" class="bricks"></div>
+            <div id="main">
+                <div id="top-bar">
+
+                    <div id="animation-container">
+
+                            <div id="brick1" class="bricks"></div>
+                            <div id="brick2" class="bricks"></div>
+                            <div id="brick3" class="bricks"></div>
+                            <div id="brick4" class="bricks"></div>
+                            <div id="brick5" class="bricks"></div>
+                            <div id="brick6" class="bricks"></div>
+
+                        </div>
                     
+                    <div><img src="logo2.png" id="logo-mobile"></div>
+
+                    <a href="" id="title">Philip Lewis Contruction</a>
+
+                    <button class="hamburger">&#9776;</button>
+                    <button class="exit-hamburger" style="display: none;">&#735;</button>
+
                 </div>
-        
-            <a href="" id="title">Philip Lewis Contruction</a>
-            
-            <button class="hamburger">&#9776;</button>
-            <button class="exit-hamburger" style="display: none;">&#735;</button>
-        
-        </div>
-        
-        <div id="nav-bar">
-        
-            <ul id="nav-bar-list">
-            
-                <li class="nav-element"><a href="#home" id="click-home">Home</a></li>
-                <li class="nav-element"><a href="#gallary" id="click-gallary">Gallary</a></li>
-                <li class="nav-element"><a href="#location" id="click-location">Location</a></li>
-                <li class="nav-element"><a href="#wwd" id="click-wwd">What we do</a></li>
-                <li class="nav-element"><a href="#contact" id="click-contact">Contact</a></li>
-                <li class="nav-element" id="about"><a href="#about" id="click-about">About</a></li>
-                
-            </ul>
-        
-        </div>
-        
-        <div id="load-div">
-        
-            <!-- TODO: Complete -->
-            <div class="textElement" style="float: left;">
-            
-                <p>
-                    Welcome to the Philip Lewis Construction website. We are a small building company based in Hinckley, Leicestershire, LE10. 
-                    We undertake all work related to building, including extensions, renovations and more (full list below).
-                </p>
-                
-                <ul>
-                
-                    <li>Extensions</li>
-                    <li>Renovations</li>
-                    <li>Damage repair</li>
-                    <li>Roofing</li>
-                    <li>Demolition</li>
-                    <li>Garden work</li>
-                    
-                </ul>
-                
-                <p>
-                
-                    We pride ourselves in excellent workmanship, low prices, and outstanding service. Find out more about our quality on our review page <a href="#reviews" id="review-link">here</a>.
-                    
-                </p>
-                
-                
+
+                <div id="nav-bar">
+
+                    <ul id="nav-bar-list">
+
+                        <li class="nav-element"><a href="#home" id="click-home">Home</a></li>
+                        <li class="nav-element"><a href="#gallary" id="click-gallary">Gallary</a></li>
+                        <li class="nav-element"><a href="#location" id="click-location">Location</a></li>
+                        <li class="nav-element"><a href="#wwd" id="click-wwd">What we do</a></li>
+                        <li class="nav-element"><a href="#contact" id="click-contact">Contact</a></li>
+                        <li class="nav-element" id="about"><a href="#about" id="click-about">About</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div id="load-div">
+
+                    <!-- TODO: Complete -->
+                    <div class="textElement" style="float: left;">
+
+                        <h3 class="header">Brief</h3>
+                        
+                        <p>
+                            Welcome to the Philip Lewis Construction website. We are a small building company based in Hinckley, Leicestershire, LE10. 
+                            We undertake all work related to building, including extensions, renovations and more (full list below).
+                        </p>
+
+                        <ul>
+
+                            <li>Extensions</li>
+                            <li>Renovations</li>
+                            <li>Damage repair</li>
+                            <li>Roofing</li>
+                            <li>Demolition</li>
+                            <li>Garden work</li>
+
+                        </ul>
+                        
+                        <h3 class="header">Reviews</h3>
+
+                        <p>
+
+                            We pride ourselves in excellent workmanship, low prices, and outstanding service. Find out more about our quality on our review page <a href="#reviews" class="link">here</a>.
+
+                        </p>
+                        
+                        <h3 class="header">Location</h3>
+                        
+                        <p id="apptextp">
+                            Being based in Hinckley, our spectrum isn't far, but if you lie within reasonable working distance, 
+                            we are happy to give you a quote. Check on this map to see where you compare to Hinckley:
+
+                        </p>
+                        
+                        <h3 class="header">Quotation</h3>
+                        
+                        <p>
+                        
+                            If you are interested in a quotation, please fill in our <a href="#form" class="link">interest form.</a>
+                            
+                        </p>
+
+
+                    </div>
+
+                    <div><img src="pictures/mainpage.jpg" id="load-picture"></div>
+
+                    <div id="apptext">
+
+                        
+
+                    </div>
+
+                    <div id="map"></div>
+
+                    <script>
+                        function initMap() {
+                            var hinckley = {lat: 52.5389, lng: -1.37613};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 10,
+                                center: hinckley
+                            });
+                            var marker = new google.maps.Marker({
+                                position: hinckley,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSINtgZyrxQydt-fjkZDw72Y3LtUzjgF0&callback=initMap">
+                    </script>
+
+                </div>
+
+                <div id="home-div" style="display: none;" class="body-text">
+
+                    <!-- TODO: Complete -->
+                    <p>Home</p>
+
+                </div>
+
+                <div id="gallary-div" style="display: none;" class="body-text">
+
+                    <!-- TODO: Complete -->
+                    <p>Gallary</p>
+
+                </div>
+
+                <div id="location-div" style="display: none;" class="body-text">
+
+                    <!-- TODO: Complete -->
+                    <p>Location</p>
+
+                </div>
+
+                <div id="wwd-div" style="display: none;" class="body-text">
+
+                    <!-- TODO: Complete -->
+                    <p>What we do</p>
+
+                </div>
+
+                <div id="contact-div" style="display: none;" class="body-text">
+
+                    <!-- TODO: Complete -->
+                    <p>Contact</p>
+
+                </div>
+
+                <div id="about-div" style="display: none;" class="body-text">
+
+                    <!-- TODO: Complete -->
+                    <p>About</p>
+
+                </div>
             </div>
-            
-            <div><img src="pictures/mainpage.jpg" id="load-picture"></div>
-        
-        </div>
-        
-        <div id="home-div" style="display: none;" class="body-text">
-            
-            <!-- TODO: Complete -->
-            <p>Home</p>
-            
-        </div>
-        
-        <div id="gallary-div" style="display: none;" class="body-text">
-            
-            <!-- TODO: Complete -->
-            <p>Gallary</p>
-            
-        </div>
-        
-        <div id="location-div" style="display: none;" class="body-text">
-            
-            <!-- TODO: Complete -->
-            <p>Location</p>
-            
-        </div>
-        
-        <div id="wwd-div" style="display: none;" class="body-text">
-            
-            <!-- TODO: Complete -->
-            <p>What we do</p>
-            
-        </div>
-        
-        <div id="contact-div" style="display: none;" class="body-text">
-            
-            <!-- TODO: Complete -->
-            <p>Contact</p>
-            
-        </div>
-        
-        <div id="about-div" style="display: none;" class="body-text">
-            
-            <!-- TODO: Complete -->
-            <p>About</p>
-            
         </div>
         
         <div id="footer">
