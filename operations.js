@@ -144,6 +144,10 @@ $(document).ready(function () {
         
     });
     
+    $('#rotatingPicture').click(function () {
+        next();
+    });
+    
     
     
 });
