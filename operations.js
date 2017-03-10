@@ -8,11 +8,13 @@ $(document).ready(function () {
         
         e.preventDefault();
         
-        if($(window).width() <= 800) {
+        if(document.getElementById('nav-bar').style.display === 'block') {
+            if($(window).width() <= 800) {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
             });
+        }
         }
     
         hideOthers();
