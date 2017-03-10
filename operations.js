@@ -80,7 +80,7 @@ $(document).ready(function () {
         
         e.preventDefault();
         
-        if($(window).width() <= 800) {
+        if($(window).width() <= 800 && $(".hamburger").css('display') == 'none') {
             $("#nav-bar").slideToggle("slow", function () {
                 $(".hamburger").show();
                 $(".exit-hamburger").hide();
