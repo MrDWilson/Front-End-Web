@@ -514,4 +514,24 @@
     
     #logo-mobile {display: none;}
     
+    #location {
+     
+        padding: 20px;
+        
+    }
+    
+    .gallaria {
+     
+        height:100%;
+        width: 100%;
+        
+    }
+    
+    #gallary-div {
+     
+        display: none;
+        
+    }
+    
+    
 }

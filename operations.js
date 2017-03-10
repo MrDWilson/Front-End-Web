@@ -2,6 +2,8 @@ $(document).ready(function () {
     
     layBricks();
     
+    
+    
     $('#title').click(function () {
     
         hideOthers();
@@ -35,7 +37,15 @@ $(document).ready(function () {
         }
     
         hideOthers();
+        $("gallary-div").css('display', '');
         document.getElementById("gallary-div").style.display = 'block';
+        
+        
+        
+        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+        Galleria.configure('wait', true);
+        Galleria.run('.galleria');
+        
         //TODO: Implement
         
     });
@@ -128,6 +138,7 @@ $(document).ready(function () {
         }
         
     });
+    
     
     
 });
