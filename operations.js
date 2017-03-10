@@ -8,7 +8,12 @@ $(document).ready(function () {
         
         e.preventDefault();
         
-        
+        if($(window).width() <= 800) {
+            $("#nav-bar").slideToggle("slow", function () {
+                $(".hamburger").show();
+                $(".exit-hamburger").hide();
+            });
+        }
     
         hideOthers();
         document.getElementById("load-div").style.display = 'block';
