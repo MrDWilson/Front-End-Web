@@ -144,7 +144,7 @@ $(document).ready(function () {
         
     });
     
-    $('#rotatingPicture').click(function () {
+    $('#rotatingPicture').on('click touchstart', function () {
         next();
     });
     
