@@ -19,7 +19,6 @@ $(document).ready(function () {
     
         hideOthers();
         document.getElementById("load-div").style.display = 'block';
-        //TODO: Implement
         
         initMap();
         
@@ -41,7 +40,6 @@ $(document).ready(function () {
         $("gallary-div").css('display', '');
         document.getElementById("gallary-div").style.display = 'block';
         
-        //TODO: Implement
         
     });
     
@@ -59,7 +57,6 @@ $(document).ready(function () {
         hideOthers();
         document.getElementById("location-div").style.display = 'block';
         initMap();
-        //TODO: Implement
         
     });
     
@@ -76,7 +73,6 @@ $(document).ready(function () {
     
         hideOthers();
         document.getElementById("wwd-div").style.display = 'block';
-        //TODO: Implement
         
     });
     
@@ -93,7 +89,6 @@ $(document).ready(function () {
     
         hideOthers();
         document.getElementById("contact-div").style.display = 'block';
-        //TODO: Implement
         
     });
     
@@ -110,7 +105,6 @@ $(document).ready(function () {
     
         hideOthers();
         document.getElementById("about-div").style.display = 'block';
-        //TODO: Implement
         
     });
     
@@ -199,7 +193,7 @@ function layBricks() {
 }
 
 var i = 0;
-var pictures = new Array("pictures/roofing.jpg","pictures/conservatory.jpg","pictures/mainpage.jpg");
+var pictures = new Array("pictures/roofing.jpg","pictures/conservatory.jpg","pictures/mainpage.jpg", "pictures/sillworkers.jpg", "pictures/digger.jpg", "pictures/dirty.jpg");
 
 function next() {
     

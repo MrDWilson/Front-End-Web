@@ -223,7 +223,6 @@
         height: 44px;
         width: 100%;
         padding-right: 0px;
-/*        padding-left: 10px;*/
         border-right: 1px solid #bbb;
         top: 0;
     }
@@ -591,8 +590,6 @@
     
     #apptextp {
         float: left;
-/*        width: 30%;*/
-/*        padding-right: 100px;*/
         padding-bottom: 30px;
     }
     
