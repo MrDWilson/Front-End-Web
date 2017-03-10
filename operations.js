@@ -199,7 +199,7 @@ function layBricks() {
 }
 
 var i = 0;
-var pictures = new Array("/pictures/roofing.jpg","/pictures/conservatory.jpg","/pictures/mainpage.jpg");
+var pictures = new Array("pictures/roofing.jpg","pictures/conservatory.jpg","pictures/mainpage.jpg");
 
 function next() {
     
