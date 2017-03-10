@@ -186,3 +186,17 @@ function layBricks() {
     }
     
 }
+
+var i = 0;
+var pictures = new Array("/pictures/roofing.jpg","/pictures/conservatory.jpg","/pictures/mainpage.jpg");
+
+function next() {
+    
+    i++;
+    if(i === pictures.length) {
+        i = 0;
+    }
+    
+    document.getElementById('rotatingPicture').src = pictures[i];
+    
+}

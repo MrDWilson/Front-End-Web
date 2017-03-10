@@ -104,7 +104,7 @@
                         
                         <p>
                         
-                            If you are interested in a quotation, please fill in our <a href="#form" class="link">interest form.</a>
+                            If you are interested in a quotation, please fill in our <a href="#contact" class="link" onclick="document.getElementById('click-contact').click();">interest form.</a>
                             
                         </p>
 
@@ -153,28 +153,15 @@
 
                     <!-- TODO: Complete -->
                     
-                    
-                    <div class="textElement">
-                        
-                        <h3>Gallary</h3>
-
-                        
-                    </div>
+                    <h3 class="textElement">Click the picture to cycle.</h3>
+        
                     
                     <div id="gallary">
                     
-                        
+                        <img src="pictures/conservatory.jpg" id="rotatingPicture" style="height: 90%; width: 100%;" onclick="next();">
                         
                     </div>
                     
-                    <div id="buttons">
-                        
-                        
-                        <img src="pictures/back.png" class="button">
-                        <img src="pictures/forward.png" class="button">
-                        
-                        
-                    </div>
 
                 </div>
 
@@ -272,7 +259,7 @@
                     <p>
                     
                         We do the best we can to serve all customers to the greatest of our abilities. If the work you are looking to have completed
-                        is not listed above, please contact us directly <a href="#contact" class="link">here</a> for a personal consultation.
+                        is not listed above, please contact us directly <a href="#contact" class="link" onclick="document.getElementById('click-contact').click();">here</a> for a personal consultation.
                         
                     </p>
                     
@@ -301,8 +288,40 @@
 
                 <div id="contact-div" style="display: none;" class="body-text">
 
-                    <!-- TODO: Complete -->
-                    <p>Contact</p>
+                    <div id="contact-info">
+                    
+                        <h3>Contact Information</h3>
+                        
+                        <p>
+                        
+                            Contact us on:
+                            <br><br>
+                            Phone: 07806873567 <br><br>
+                            Landline: 01455 643567 <br><br>
+                            Post: 164 Southend Road, Hinckley, Leicestershire, LE10 2SG. <br><br>
+                            
+                        </p>
+                        
+                    </div>
+                    
+                    <div id="form">
+                    
+                        <form action="mailto:philiplewis@plc.com" method="post" enctype="text/plain">
+                        
+                            Name:<br>
+                            <input type="text" name="name"><br><br>
+                            Email:<br>
+                            <input type="email" name="email"><br><br>
+                            Phone:<br>
+                            <input type="tel" name="num"><br><br>
+                            Request:<br>
+                            <textarea name="request" cols="50" rows="10"></textarea><br><br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                            
+                        </form>
+                        
+                    </div>
 
                 </div>
 

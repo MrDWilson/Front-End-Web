@@ -176,6 +176,19 @@
         float: right;
         position: fixed;
     }
+    
+    #gallary {
+        padding: 20px;
+        height: 40%;
+    }
+    
+    #contact-info {
+        padding: 20px;
+    }
+    
+    #form {
+        padding: 20px;
+    }
 
 }
 
@@ -363,6 +376,19 @@
         width: 100%;
         float: right;
         position: fixed;
+    }
+    
+    #gallary {
+        padding: 20px;
+        height: 50%;
+    }
+    
+    #contact-info {
+        padding: 20px;
+    }
+    
+    #form {
+        padding: 20px;
     }
     
 }
@@ -575,9 +601,18 @@
         float: left;
     }
     
-    .button {
-        height: 10%;
-        width: 5%;
+    #gallary {
+        padding: 5%; 
+        height: 90%; 
+        width: 80%;
+    }
+    
+    #contact-info {
+        padding: 20px;
+    }
+    
+    #form {
+        padding: 20px;
     }
     
     
