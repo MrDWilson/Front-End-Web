@@ -189,6 +189,19 @@
     #form {
         padding: 20px;
     }
+    
+    #aboutText {
+        padding: 30px 0px 0px 60px;
+        width: 70%;
+    }
+    
+    #aboutProject {
+        padding-left: 60px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        width: 70%;
+        height: 50%;
+    }
 
 }
 
@@ -389,6 +402,20 @@
     
     #form {
         padding: 20px;
+    }
+    
+    #aboutText {
+        float: left;
+        padding: 30px 0px 30px 30px;
+        width: 36%;
+    }
+    
+    #aboutProject {
+        padding-left: 100px;
+        padding-top: 30px;
+        width: 36%;
+        height: 50%;
+        float: left;
     }
     
 }
@@ -615,6 +642,19 @@
         padding: 20px;
     }
     
+    #aboutText {
+        float: left;
+        padding: 30px 0px 30px 30px;
+        width: 36%;
+    }
+    
+    #aboutProject {
+        padding-left: 10px;
+        padding-top: 30px;
+        width: 40%;
+        height: 50%;
+        float: left;
+    }
     
     
 }
