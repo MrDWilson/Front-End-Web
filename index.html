@@ -38,7 +38,7 @@
 
                         </div>
                     
-                    <div><img src="logo2.png" id="logo-mobile"></div>
+                    <div><img src="pictures/logo2.png" id="logo-mobile"></div>
 
                     <a href="" id="title">Philip Lewis Contruction</a>
 
@@ -51,7 +51,6 @@
 
                     <ul id="nav-bar-list">
 
-                        <li class="nav-element"><a href="#home" id="click-home">Home</a></li>
                         <li class="nav-element"><a href="#gallary" id="click-gallary">Gallary</a></li>
                         <li class="nav-element"><a href="#location" id="click-location">Location</a></li>
                         <li class="nav-element"><a href="#wwd" id="click-wwd">What we do</a></li>
@@ -129,9 +128,17 @@
                                 zoom: 10,
                                 center: hinckley
                             });
+                            var map2 = new google.maps.Map(document.getElementById('map2'), {
+                                zoom: 10,
+                                center: hinckley
+                            });
                             var marker = new google.maps.Marker({
                                 position: hinckley,
                                 map: map
+                            });
+                            var marker2 = new google.maps.Marker({
+                                position: hinckley,
+                                map: map2
                             });
                         }
                     </script>
@@ -141,25 +148,31 @@
 
                 </div>
 
-                <div id="home-div" style="display: none;" class="body-text">
-
-                    <!-- TODO: Complete -->
-                    <p>Home</p>
-
-                </div>
 
                 <div id="gallary-div" class="body-text">
 
                     <!-- TODO: Complete -->
-                    <p>Gallary</p>
                     
-                    <div class="gallary cf">
                     
-                        <div>
+                    <div class="textElement">
                         
-                            <img src="logo2.png">
-                            
-                        </div>
+                        <h3>Gallary</h3>
+
+                        
+                    </div>
+                    
+                    <div id="gallary">
+                    
+                        
+                        
+                    </div>
+                    
+                    <div id="buttons">
+                        
+                        
+                        <img src="pictures/back.png" class="button">
+                        <img src="pictures/forward.png" class="button">
+                        
                         
                     </div>
 
@@ -168,7 +181,7 @@
                 <div id="location-div" style="display: none;" class="body-text">
 
                     <!-- TODO: Complete -->
-                    <div id="location">
+                    <div id="location" class="textElement" style="width: 95%; padding-bottom: 0;">
                     
                        <h3>Location</h3>
                         
@@ -182,14 +195,107 @@
                             to confirm you are within distance before making a request.
                         
                         </p>
+                        
+                        <br><br>
+                        
+                        
                     
                     </div>
                     
+                    <div id="map2-container"><div id="map2"></div></div>
+                    
+                </div>
+                    
 
                 <div id="wwd-div" style="display: none;" class="body-text">
-
-                    <!-- TODO: Complete -->
-                    <p>What we do</p>
+                    
+                    <div id="wwd" class="textElement">
+                    
+                        <h3>What We Do</h3>
+                        
+                        <p>
+                        
+                            Here at Philip Lewis Contruction, we strive for greatness. Whether it be a simple renovation, or an extension doubling your house size.
+                            
+                            <br>
+                            
+                            <ul>
+                                
+                                <li><p>Extensions - No matter how large the task, we can execute solutions of the highest quality. </p></li>
+                                <li><p>
+                                    
+                                    Renovations - Ever had that one room in your house that you dreamed could be something else?
+                                    We can make that happen. Games room? Combining Kitchen and Dining room? Reconfigure the houses
+                                    layout completely? You've came to the right place. We make dreams happen. Turn your house into 
+                                    the home you deserve.
+                                    
+                                </p></li>
+                                
+                                <li><p>
+                                
+                                    Conservatories - Conversitories are a great and easy way to make an extension to your house.
+                                    Huge amounts of natural light make for a great reading room, or even an extension to an existing
+                                    Kitchen.
+                                    
+                                </p></li>
+                                
+                                <li><p>
+                                
+                                    Roofing and Tiling - Has a storm hit recently, and the damage is both an eyesore and an inconvience? We can help! 
+                                    We can fufill your roofing needs, whatever they are, and get your roof looking new again!
+                                    
+                                </p></li>
+                                
+                                <li><p>
+                                
+                                    Garden - Always dreamed of a getaway style garden, but the time taken is just too much? Let us do it for you!
+                                    You will spend every moment in your new garden wondering why you hadn't had it done sooner!
+                                    
+                                </p></li>
+                                
+                                <li><p>
+                                
+                                    Electrics and plumbing - We employ multiple workers in both fields, so no matter how small the task, get
+                                    in touch! 
+                                    
+                                </p></li>
+                        
+                        
+                            </ul>
+                            
+                            
+                            
+                        </p>
+                    
+                    <br>
+                    
+                    <p>
+                    
+                        We do the best we can to serve all customers to the greatest of our abilities. If the work you are looking to have completed
+                        is not listed above, please contact us directly <a href="#contact" class="link">here</a> for a personal consultation.
+                        
+                    </p>
+                    
+                    <p>
+                    
+                        Depending on the size of the task, we may be inclined to decline if your work is not listed above. Sorry for any inconvience caused.
+                        
+                    </p>
+                        
+                        
+                    </div>
+                
+                <div>
+                
+                    <img src="pictures/roofing.jpg" class="picture">
+                
+                </div>
+                
+                <div>
+                    
+                    <img src="pictures/conservatory.jpg" class="picture">
+                    
+                </div>
 
                 </div>
 

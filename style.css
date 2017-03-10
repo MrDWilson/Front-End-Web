@@ -164,6 +164,18 @@
     }
     
     #load-div {padding-bottom: 30px;}
+    
+    .picture {
+        width: 80%;
+        padding: 10%;
+    }
+    
+    #map2 {
+        height: 400px;
+        width: 100%;
+        float: right;
+        position: fixed;
+    }
 
 }
 
@@ -341,6 +353,18 @@
     
     #load-div {padding-bottom: 30px;}
     
+    .picture {
+        width: 80%;
+        padding: 10%;
+    }
+    
+    #map2 {
+        height: 400px;
+        width: 100%;
+        float: right;
+        position: fixed;
+    }
+    
 }
 
 /* Desktop */
@@ -484,6 +508,13 @@
         position: fixed;
     }
     
+    #map2 {
+        height: 50%;
+        width: 100%;
+        float: right;
+        position: fixed;
+    }
+    
     html, body {height: 100%;}
 
     #wrap {min-height: 100%;}
@@ -520,18 +551,35 @@
         
     }
     
-    .gallaria {
-     
-        height:100%;
-        width: 100%;
-        
-    }
     
     #gallary-div {
      
         display: none;
         
     }
+    
+    #wwd {
+        padding-left: .9em;
+        width: 49%;
+        float: left;
+    }
+    
+    .picture {
+        height: 50%;
+        width: 40%;
+        padding: 50px 30px 30px 30px;
+    }
+    
+    #map2-container {
+        width: 100%;
+        float: left;
+    }
+    
+    .button {
+        height: 10%;
+        width: 5%;
+    }
+    
     
     
 }
